@@ -7,10 +7,12 @@
     --background: 27 27 27;
     --foreground: 255 255 255;
     --muted: 115 115 115;
-    --accent: 254 254 91;
+    --accent: 254 254 254;
   }
 }
 
 @layer utilities {
-
+.pause{
+  animation-play-state: paused;
+}
 }
